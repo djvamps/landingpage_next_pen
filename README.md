@@ -37,7 +37,7 @@ Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startu
 
 ### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+### [🚀 View Pro Demo](https://www.pengrafic.com/)
 
 ### [📦 Download](https://nextjstemplates.com/templates/startup)
 
