@@ -225,7 +225,7 @@ const Footer = () => {
               </a>{" "}
               and{" "}
               <a
-                href="https://www.pengraficepizy.com"
+                href="https://pengrafic.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
