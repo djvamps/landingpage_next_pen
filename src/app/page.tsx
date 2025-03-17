@@ -14,7 +14,12 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Pengrafic - Agencia de Marketing",
-  description: "Estas en Internt luego existes",
+  description: "Estas en Internt luego existes, somos una agencia integral creativa. Realizamos proyectos de imagen, diseño, marketing digital, audiovisuales.",
+  
+  other: {
+    keywords: "marketing digital, agencia de marketing, diseño gráfico, audiovisuales, branding, publicidad, redes sociales, SEO, contenido digital", // Agrega tus keywords aquí
+  },
+
   // other metadata
 };
 
