@@ -7,6 +7,9 @@ import WhatsAppButton from "../components/WhatsAppButton"; // Importa el botón
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import Script from "next/script"; // 👈 Importamos el componente Script
+import { Providers } from "./providers";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,9 +43,23 @@ export default function RootLayout({
           <ScrollToTop />
           <WhatsAppButton /> {/* Agrega el botón aquí */}
         </Providers>
+
+         {/* Google Analytics */}
+         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1BDY2J5917"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1BDY2J5917');
+          `}
+        </Script>
       </body>
     </html>
   );
 }
 
-import { Providers } from "./providers";
+
