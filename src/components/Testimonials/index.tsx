@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Marcel S.",
+    designation: "Fundadora de Essenza Natural",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+     "Trabajar con Pengrafic fue un antes y un después para nuestra marca. Nos ayudaron a lanzar nuestra tienda online y triplicamos las ventas en solo dos meses. El equipo es muy profesional y siempre están atentos.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Luis R.",
+    designation: "Director de Grupo Medisalud",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Gracias a Pengrafic mejoramos la imagen de nuestra empresa en Google y redes sociales. Son expertos en reputación digital. ¡Excelente experiencia!.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Carlos G.",
+    designation: "Gerente de Inmobiliaria Norte",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Lo que más valoro es su enfoque estratégico. No solo hicieron un diseño bonito, sino que pensaron en cómo convertir visitas en clientes. Los recomiendo totalmente.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Testimonio de usuarios"
+          paragraph="Historias que Inspiran: Clientes Satisfechos que Alcanzaron sus Metas con Nuestra Ayuda"
           center
         />
 

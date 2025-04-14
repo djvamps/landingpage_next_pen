@@ -23,7 +23,12 @@ export default function RootLayout({
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
        
+<<<<<<< HEAD
        <meta name="google-site-verification" content="xIiLIUqqWxzZ6XSXF7YQ-GKiOKmlUnUdIrTsd3fnceg" />
+=======
+      <meta name="google-site-verification" content="xIiLIUqqWxzZ6XSXF7YQ-GKiOKmlUnUdIrTsd3fnceg" />
+      
+>>>>>>> 01f145e (actualizacion de informacion)
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>

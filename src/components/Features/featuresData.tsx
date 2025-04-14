@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "e-Commerce",
     paragraph:
-      "TDesarrollamos tu tienda virtual con el mejor ratio de conversión a ventas. Optimizadas, con estrategias SEO, reducción de velocidad de carga, funcionalidades especiales, o la ruta de éxito que necesites.",
+      "Desarrollamos tu tienda virtual con el mejor ratio de conversión a ventas. Optimizadas, con estrategias SEO, reducción de velocidad de carga, funcionalidades especiales, o la ruta de éxito que necesites.",
   },
   {
     id: 1,

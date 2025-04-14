@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are Pengrafic to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Tu marca, nuestro reto. ¡Vamos más allá del diseño!"
+          paragraph="En Pengrafic creamos soluciones digitales que conectan con tus clientes y generan resultados reales."
           center
           mb="80px"
         />
